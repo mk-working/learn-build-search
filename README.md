@@ -5,11 +5,12 @@ src/
 │   ├── Search/
 │   │   ├── SearchBar.tsx
 │   │   ├── SearchResult.tsx
-│   │   └── Search.tsx
+│   │   ├── Search.tsx
+│   │   └── types.ts (feature-specific types)
 ├── api/
-│   └── user.ts
+│   └── user.ts (use Axios)
 ├── store/
-│   └── searchStore.ts
+│   └── searchStore.ts (use Zustand)
 ├── hooks/
-│   └── useSearchQuery.ts
+│   └── useSearchQuery.ts (use TanStack Query)
 └── App.tsx
