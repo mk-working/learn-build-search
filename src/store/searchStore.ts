@@ -11,6 +11,7 @@ interface SearchState {
 const useSearchStore = create<SearchState>((set) => ({
     query: '',
     results: [],
+    // Action
     setQuery: (query) => set({query}),
     setResults: (results) => set({results}),
 }));
